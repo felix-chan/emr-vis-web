@@ -1,0 +1,15 @@
+var variableMappingDf = {   "any-adenoma": "any-adenoma",
+"appendiceal-orifice": "appendiceal-orifice",
+"asa": "asa",
+"biopsy": "biopsy",
+"cecum": "cecum",
+"ileo-cecal-valve": "ileocecal-valve",
+"indication-type": "indication-type",
+"informed-consent": "informed-consent",
+"nursing-report": "nursing-report",
+"prep-adequateNo": "no-prep-adequate",
+"prep-adequateNot": "not-prep-adequate",
+"prep-adequateYes": "yes-prep-adequate",
+"proc-aborted": "proc-aborted",
+"withdraw-time": "withdraw-time"
+};

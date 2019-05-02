@@ -41,6 +41,14 @@ angular.module('myApp.controllers', [])
             "withdraw-time": "withdraw-time"
         }
 
+        try {
+            if(variableMappingDf){
+                $rootScope.config.variableMapping = variableMappingDf;
+            }
+        } catch (error) {
+            // console.log(error)
+        }
+
         $scope.active = {
             docIndex: null,
             variable: null,
